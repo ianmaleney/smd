@@ -5,6 +5,8 @@ node_modules
 # local env files
 .env.local
 .env.*.local
+*.env
+*.dev
 
 # Log files
 npm-debug.log*
@@ -19,3 +21,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# Docker
+Dockerfile
+docker-compose.yml
